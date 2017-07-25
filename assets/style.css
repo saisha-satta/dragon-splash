@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "bariolregular";
+    font-weight: normal;
+    font-style: normal;
+    src: url(Bariol/bariol-regular-webfont-webfont-1690e27109fbfb6e8894df19ba514733.eot);
+    src: url(Bariol/bariol-regular-webfont-webfont-1690e27109fbfb6e8894df19ba514733.eot?#iefix) format("embedded-opentype"), url(Bariol/bariol-regular-webfont-webfont-ff87a9d37c124d32d74eb3e89c5408eb.woff) format("woff"), url(Bariol/bariol-regular-webfont-webfont-002bc616eb7e8644fe2b162cab6c21a6.ttf) format("truetype"), url(Bariol/bariol-regular-webfont-webfont-f1e452f5b46cfeaf30950b04d686597b.svg#bariolregular) format("svg");
+}
+@font-face {
+    font-family: "bariolthin";
+    font-weight: normal;
+    font-style: normal;
+    src: url(Bariol/bariol-thin-webfont-webfont-dc6343613e97affcf815193b41da9d78.eot);
+    src: url(Bariol/bariol-thin-webfont-webfont-dc6343613e97affcf815193b41da9d78.eot?#iefix) format("embedded-opentype"), url(Bariol/bariol-thin-webfont-webfont-538b9bd5436f94aed9db04b00fc63cb4.woff) format("woff"), url(Bariol/bariol-thin-webfont-webfont-eeba0f87ecb0494c400b84bf124d8209.ttf) format("truetype"), url(Bariol/bariol-thin-webfont-webfont-dc12a682bf1df91c457bbfbe262f26d0.svg#bariolthin) format("svg");
+}
+@font-face {
+    font-family: "bariollight";
+    font-weight: normal;
+    font-style: normal;
+    src: url(Bariol/bariol-light-webfont-webfont-bca37b3db2e7d9e567b86a49001c0649.eot);
+    src: url(Bariol/bariol-light-webfont-webfont-bca37b3db2e7d9e567b86a49001c0649.eot?#iefix) format("embedded-opentype"), url(Bariol/bariol-light-webfont-webfont-bdeec0c826fccb286a826ac679718c39.woff) format("woff"), 
+    url(Bariol/bariol-light-webfont-webfont.ttf) format("truetype"), 
+    url(Bariol/bariol-light-webfont-webfont-a402caec574e1eb29b203a7d89097691.svg#bariollight) format("svg");
+}
+@font-face {
+    font-family: "bariol_boldbold";
+    font-weight: normal;
+    font-style: normal;
+    src: url(Bariol/bariol-bold-webfont-ab4343e62a2bd957faf6b5b3506ebb3a.eot);
+    src: url(Bariol/bariol-bold-webfont-ab4343e62a2bd957faf6b5b3506ebb3a.eot?#iefix) format("embedded-opentype"), url(Bariol/bariol-bold-webfont-b3e7f5c85760ec57bb960030c4f58212.woff) format("woff"), url(Bariol/bariol-bold-webfont-1c3f5d7643335d0ea7cebadff29f97c4.ttf) format("truetype"), url(Bariol/bariol-bold-webfont-75d86714406bd0aee7a8a1bda810aa06.svg#bariol_boldbold) format("svg");
+}
+
+.hero .hero-background-coffee {
+    background: url("assets/product_hero_uncropped_large.png") no-repeat center bottom #000;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+@media all and (max-width: 1921px) {
+  .hero-background-coffee {
+      background: url("product_hero_uncropped_large.png") no-repeat center bottom #000 !important;
+      background-size: cover !important;
+  }
+}
+
+
+.hero .hero-background-beardman {
+    background: url("assets/home_hero_image_uncropped_large.png") no-repeat center bottom #000;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+@media all and (max-width: 1921px) {
+  .hero-background-beardman {
+      background: url("home_hero_image_uncropped_large.png") no-repeat center bottom #000 !important;
+      background-size: cover !important;
+  }
+}
+
+.green25 {
+  font-family: "bariol_boldbold";
+  font-size:25px;
+  color: #7dbf43;
+  text-shadow: 2px 2px #2b2b2b;
+}
+.green18 {
+  font-family: "bariol_boldbold";
+  font-size:18px;
+  text-align:left;
+  color: #7dbf43;
+  text-shadow: 2px 2px #2b2b2b;
+}
+
+.dragonText {
+  font-family: "bariolregular", Arial;
+  font-size:50px;
+  color: #7dbf43;
+  margin-top: 400px;
+  margin-left:100px !important;
+  text-shadow: 2px 2px #2b2b2b;
+}
+
+.subTitleReg {
+  font-family: "bariollight";
+  font-size:40px;
+  margin-bottom:20px;
+  color: #fff;
+  margin-left:100px !important;
+}
+
+.subTitleBold {
+  font-family: "bariol_boldbold";
+  font-size:40px;
+  color: #fff;
+  margin-left:100px !important;
+}
+
+.textShadow {
+  font-family: "bariol_boldbold";
+  text-shadow: 2px 2px #2b2b2b;
+}
+
+.divider {
+  margin-top:-438px;
+  margin-left: 15px;    
+}
+
+.checkButton {
+  background:url(step_box_w_checkmark.png) no-repeat;
+  border:none;
+  color:#000;
+  height:53px;
+  width:194px;
+  margin-bottom:10px;
+  padding:19px;
+  outline: none;
+}
+
+.grayButton {
+  background:url(step_box_empty2.png) no-repeat;
+  border:none;
+  color:#000;
+  height:53px;
+  width:194px;
+  /*margin-top:10px;
+  margin-bottom:10px;*/
+  padding-bottom:10px;
+  outline: none;
+}
+
+/*.grayButton:hover {
+  background:url(step_box_selected2.png) no-repeat;
+  border:none;
+  color:#000;
+  height:53px;
+  width:194px;
+  
+  padding-bottom:10px;
+  outline: none;
+}
+
+.grayButton:focus {
+  background:url(step_box_w_checkmark.png) no-repeat;
+  border:none;
+  color:#000;
+  height:53px;
+  width:194px;
+  margin-bottom:10px;
+  padding:19px;
+  outline: none;
+}*/
+
+.grayButtonClicked {
+  background:url(step_box_w_checkmark.png) no-repeat;
+  border:none;
+  color:#000;
+  height:53px;
+  width:194px;
+  margin-bottom:10px;
+  padding:19px;
+  outline: none;
+}
+
+
+
